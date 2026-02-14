@@ -1,3 +1,32 @@
+# you shouldn't commit these into source control
+# these are the default directory names, adjust/add to fit your needs
+chapter_4/taxi_rides_ny/target/
+chapter_4/taxi_rides_ny/dbt_packages/
+chapter_4/taxi_rides_ny/logs/
+chapter_4/taxi_rides_ny/profiles.yml
+chapter_4/taxi_rides_ny/.user.yml
+
+# Data files for DuckDB
+chapter_4/taxi_rides_ny/data/green_tripdata/
+chapter_4/taxi_rides_ny/data/yellow_tripdata/
+chapter_4/taxi_rides_ny/data/
+*.duckdb
+*.duckdb.wal
+.duckdb_temp/
+chapter_4/DataTalksClub data-engineering-zoomcamp main 04-analytics-engineering.zip
+chapter_4/taxi_rides_ny/.gitignore
+chapter_4/taxi_rides_ny/dbt_project.yml
+chapter_4/taxi_rides_ny/ingestion_script.py
+chapter_4/taxi_rides_ny/macros/
+chapter_4/taxi_rides_ny/models/
+chapter_4/taxi_rides_ny/package-lock.yml
+chapter_4/taxi_rides_ny/packages.yml
+chapter_4/taxi_rides_ny/seeds/
+chapter_4/taxi_rides_ny/snapshots/
+chapter_4/taxi_rides_ny/tests/
+# Parquet data files
+*.parquet
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
