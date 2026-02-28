@@ -192,3 +192,5 @@ cython_debug/
 # volumes
 **/volume/
 downloaded_data/
+
+.bruin.yml
